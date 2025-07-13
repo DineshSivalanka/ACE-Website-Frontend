@@ -1,0 +1,116 @@
+
+:root {
+  --primary: #64c7c0;
+  --secondary: #FF6B6B;
+  --accent: #4ECDC4;
+  --light: #f7f9fc;
+  --dark: #1a1a1a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+padding: 0;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    color: var(--secondary);
+    background: var(--light);
+}
+
+
+
+.hero {
+  background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%);
+  color: #ffffff;
+  padding: 120px 0;
+  text-align: center;
+}
+
+
+.btn-primary {
+  background: var(--secondary);
+  border: none;
+  border-radius: 10px;
+}
+
+.btn-primary:hover {
+      background: #e34141;
+      color:#1c1a1a
+    }
+
+
+footer {
+  background: var(--dark);
+}
+
+footer p {
+  margin: 0;
+}
+
+table tbody tr:hover {
+  background-color: rgba(0, 102, 255, 0.05);
+}
+
+
+
+.modal-content h5,
+.modal-content p,
+.modal-content strong {
+  color: #000000 !important;
+}
+
+/* Optional: make date bold white */
+.modal-content strong {
+  font-weight: 1600;
+}
+
+
+.custom-navbar {
+  background: #4ECDC4;
+    padding-top: 0.3rem;
+  padding-bottom: 0.3rem;
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  transition: color 0.4s ease; /* smooth transition */
+}
+
+.custom-navbar .nav-link:hover {
+  color: #FF6B6B !important; /* smooth pinkish hover color */
+  font-weight:"800";
+}
+
+.scrolling-bar {
+  background-color: transparent;
+  color: white; /* or any color you prefer */
+  font-weight: 600;
+  font-size: 1rem;
+  border-bottom: none;
+}
+
+  .card {
+  border: 5px solid transparent;
+  transition: transform 0.3s, border-color 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+  border-color: #64c7c0; /* Bootstrap primary blue */
+  box-shadow: 0 0 15px rgba(13, 110, 253, 0.2); /* soft blue shadow */
+}
+
+.card-title ,.textcolor{
+      font-weight: 600;
+      color: #44d4ca;
+    }
+
+.img-outline {
+  border: 2px solid #44d4ca;
+}
+
+
+
